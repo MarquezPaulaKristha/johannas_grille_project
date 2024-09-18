@@ -29,6 +29,9 @@
     text-align: center;
     border-bottom: 2px solid #f0f0f0;
     padding-bottom: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
 }
 
 .close-icon {
@@ -37,6 +40,12 @@
     top: 0;
     font-size: 24px;
     cursor: pointer;
+}
+
+.receipt-header .close-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .order-id {
@@ -63,14 +72,14 @@
 
 .order-item {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 10px;
-    border-bottom: 1px solid #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+ 
 }
 
 .quantity {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .item-details {
@@ -98,5 +107,6 @@
     justify-content: space-between;
     font-size: 20px;
     font-weight: bold;
-    padding-top: 10px;
+    padding-top: 100px;
+    
 }

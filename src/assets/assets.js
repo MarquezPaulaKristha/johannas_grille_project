@@ -21,10 +21,18 @@ import menu_1 from './Ribs.png'
 import menu_2 from './Crispy.png'
 import menu_3 from './Salmon.png'
 import menu_4 from './Kaldereta.png'
-import menu_5 from './Bangus.png'
+import menu_5 from './Boneless_bangus.jpg'
 import menu_6 from './Steak.png'
 import menu_7 from './Liempo.png'
-import menu_8 from './Adobo.png'
+import menu_8 from './American.jpg'
+import menu_9 from './JD_Platter.jpg'
+import menu_10 from './bbq.jpg'
+import menu_11 from './callos.jpg'
+import menu_12 from './fries.jpg'
+import menu_13 from './fries.jpg'
+import menu_14 from './sisig.jpg'
+import menu_15 from './shanghai.jpg'
+import menu_16 from './rolls.jpg'
 import cat_1 from './appetizer.png'
 import cat_2 from './must.png'
 import cat_3 from './house.png'
@@ -119,7 +127,7 @@ export const food_list = [
     {
         _id: "5",
         name: "Jd's Platter",
-        image: menu,
+        image: menu_9,
         price: 350,
         description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
         category: "House"
@@ -127,7 +135,7 @@ export const food_list = [
     {
         _id: "6",
         name: "Boneless Bangus",
-        image: menu_7,
+        image: menu_5,
         price: 195,
         description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
         category: "House"
@@ -151,7 +159,7 @@ export const food_list = [
     {
         _id: "9",
         name: "American Ribs Adobo",
-        image: menu_7,
+        image: menu_8,
         price: 330,
         description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
         category: "House"
@@ -159,7 +167,7 @@ export const food_list = [
     {
         _id: "10",
         name: "Chicken Barbeque",
-        image: menu,
+        image: menu_10,
         price: 225,
         description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
         category: "House"
@@ -167,7 +175,7 @@ export const food_list = [
     {
         _id: "11",
         name: "Callos",
-        image: menu,
+        image: menu_11,
         price: 375,
         description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
         category: "House"
@@ -175,15 +183,15 @@ export const food_list = [
     {
         _id: "12",
         name: "French Fries",
-        image: menu,
+        image: menu_12,
         price: 140,
         description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
         category: "Appetizer"
     },
     {
         _id: "12",
-        name: "French Fries",
-        image: menu,
+        name: "yes",
+        image: menu_13,
         price: 140,
         description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
         category: "Appetizer"
@@ -191,7 +199,7 @@ export const food_list = [
     {
         _id: "13",
         name: "Sizzling Sisig",
-        image: menu,
+        image: menu_14,
         price: 220,
         description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
         category: "Appetizer"
@@ -199,7 +207,7 @@ export const food_list = [
     {
         _id: "14",
         name: "Shanghai Rolls",
-        image: menu,
+        image: menu_15,
         price: 185,
         description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
         category: "Appetizer"
@@ -207,7 +215,7 @@ export const food_list = [
     {
         _id: "15",
         name: "Shrimp Rolls",
-        image: menu,
+        image: menu_16,
         price: 230,
         description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
         category: "Appetizer"
@@ -244,5 +252,13 @@ export const food_list = [
         trio: 245,
         description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
         category: "Appetizer"
+    },
+    {
+        _id: "20",
+        name: "JD Platter",
+        image: menu_9,
+        price: 495,
+        description: "lorem ipsum dolor lorem ipsum dolor lorem ipsum dolor lorem ipsum",
+        category: "House"
     },
 ]

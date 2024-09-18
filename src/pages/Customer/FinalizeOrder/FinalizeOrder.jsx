@@ -45,6 +45,7 @@ const FinalizeOrder = () => {
           </div>
         </div>
 
+  
         <div className="order-summary">
           <p>Total</p>
           <p>P745.00</p>
